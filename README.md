@@ -33,15 +33,6 @@ Note that if you get the GPU version of Tensorflow from the `environment-gpu.yml
 to follow the instructions on the [TensorFlow website](https://www.tensorflow.org/install/gpu)
 in order to allow TensorFlow to use your GPU.
 
-
-## Results
-
-### Training loss vs Validation loss
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/milsun/AI-Driver-CNN-DeepLearning-PyTorch/master/images/loss.png" width="50%">
-  <p>Training loss vs Validation loss (generalized)</p>
-</div>
 ## CARLA Simulator Scripts
 
 The directory `CARLA_simulator_scripts` currently contains the scripts I used to collect camera, depth, and
@@ -85,3 +76,11 @@ simulator will be launched and a black Pygame window will start. You need to kee
 and drive the car manually using the WASD keys. Once you have collected as much data as you want, simply kill
 the python process and the simulator. 
 
+## Results
+
+### Training loss vs Validation loss
+
+<div align="center">
+  <img src="https://github.com/Akshata1801/Behavioural-Cloning-with-Carla-Simulator/blob/main/results.png" width="50%">
+  <p>Training loss vs Validation loss (generalized)</p>
+</div>
